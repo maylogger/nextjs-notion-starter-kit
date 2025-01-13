@@ -112,7 +112,8 @@ export default async function OGImage(
               style={{
                 fontSize: 70,
                 fontWeight: 700,
-                fontFamily: 'Inter'
+                fontFamily: 'Inter',
+                textWrap: 'balance'
               }}
             >
               {pageInfo.title}
