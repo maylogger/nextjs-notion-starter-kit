@@ -78,7 +78,8 @@
 }
 
 .notion-collection-card {
-  border-radius: 16px;
+  padding: 16px;
+  border-radius: 32px;
   box-shadow: none;
 }
 
@@ -400,6 +401,16 @@
   color: var(--fg-color-2);
 }
 
-.notion-equation.notion-equation-block{
+.notion-equation.notion-equation-block {
   align-items: center;
+}
+
+/* hide notion collection header */
+.notion-collection-header {
+  display: none;
+}
+
+/* hide border of grid */
+.notion-gallery-grid {
+  border: none;
 }
